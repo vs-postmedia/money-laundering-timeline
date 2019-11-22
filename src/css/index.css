@@ -13,6 +13,7 @@ body {
 }
 
 figure, p, h1, h2, h3, h4 {
+	font-weight: 400;
 	margin-block-start: 0;
 	margin-block-end: 0;
 	margin-inline-start: 0;

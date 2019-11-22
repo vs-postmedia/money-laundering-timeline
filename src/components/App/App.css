@@ -1,4 +1,13 @@
 .App {
-	/*position: relative;*/
+	
+}
+
+.App > h1 {
+	color: #FFF;
+	font-size: 3rem;
+	margin: 0 auto;
+	max-width: 550px;
+	text-align: center;
+	text-shadow: 1px 1px var(--black);
 }
 
