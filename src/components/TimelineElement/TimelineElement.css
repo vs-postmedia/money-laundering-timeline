@@ -12,7 +12,8 @@
 	margin-top: 0.5rem;
 }
 
-.timeline-element .detail-section > h4 {
+.timeline-element .detail-section > h4,
+.timeline-element .detail-section > .arrow {
 	pointer-events: none;
 }
 
