@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80012bee7301e56f33b8e572ba31f08f",
+    "revision": "3fdc948236312e7a4bc3f8c45731b7d8",
     "url": "/money-laundering-timeline/index.html"
   },
   {
-    "revision": "21db9a07b027e7163d70",
-    "url": "/money-laundering-timeline/static/css/main.58b3e745.chunk.css"
+    "revision": "424d22effa3b79dafa28",
+    "url": "/money-laundering-timeline/static/css/main.4e74355e.chunk.css"
   },
   {
     "revision": "9caacba955439ebeaf22",
     "url": "/money-laundering-timeline/static/js/2.ae5bc252.chunk.js"
   },
   {
-    "revision": "21db9a07b027e7163d70",
+    "revision": "424d22effa3b79dafa28",
     "url": "/money-laundering-timeline/static/js/main.e8d4d2fb.chunk.js"
   },
   {
