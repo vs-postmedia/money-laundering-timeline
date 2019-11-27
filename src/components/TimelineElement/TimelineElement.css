@@ -1,15 +1,19 @@
 
 .timeline-element h3 {
-	color: var(--blue01);
+	color: var(--blue02);
 	text-transform: capitalize;
 }
 
 .timeline-element strong {
-	color: var(--blue01);
+	color: var(--blue02);
 }
 
 .timeline-element .detail-section {
 	margin-top: 0.5rem;
+}
+
+.timeline-element .detail-section > h4 {
+	pointer-events: none;
 }
 
 .timeline-element .arrow {
@@ -38,7 +42,7 @@
 }
 
 .timeline-element .details.visible {
-	height: 120px;
+	height: 150px;
 	overflow-y: scroll;
 }
 

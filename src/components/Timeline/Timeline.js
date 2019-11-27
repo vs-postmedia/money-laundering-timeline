@@ -59,7 +59,7 @@ export default class Timeline extends Component {
 							<VerticalTimelineElement
 								contentArrowStyle={{borderRight: '7px solid #3C76B0'}}
 								date={d.time_period}
-								iconStyle={{ background: '#3C76B0', color: '#fff' }}
+								iconStyle={{background: '#3C76B0', color: '#fff'}}
 								icon={this.setIcon(d.icon_text)}
 								key={d.order}
 							>

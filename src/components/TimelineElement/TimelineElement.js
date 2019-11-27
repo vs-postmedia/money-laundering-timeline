@@ -16,25 +16,23 @@ const TimelineElement = (props) => {
 			</section>
 			
 			<footer>
-				<p className="banks"><strong>Banks involved:</strong> {d.banks}</p>
-				<p className="countries"><strong>Money travelled through:</strong> {d.countries}</p>
+				<p className="banks"><strong>Money moved through:</strong> {d.banks}</p>
+				<p className="countries"><strong>Countries:</strong> {d.countries}</p>
 			</footer>
 		</div>
 	);
 }
 
 const toggleHidden = (el) => {
-	const p = el.target.nextSibling;
+	// show/hide text
+	const p = el.target.querySelector('.details');
 	const pClass = p.className;
-
 	p.className = pClass.includes('visible') ? 'details' : 'details visible';
 
-	const arrow = el.target.previousSibling;
+	// rotate arrow
+	const arrow = el.target.querySelector('.arrow');
 	const arrowClass = arrow.className;
-
 	arrow.className = arrowClass.includes('rotate') ? 'arrow' : 'arrow rotate';
-
-	console.log(arrow.className)
 }
 
 export default TimelineElement;

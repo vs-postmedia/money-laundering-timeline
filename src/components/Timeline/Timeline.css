@@ -231,12 +231,14 @@
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
-	color: #FFF;
+	color: var(--black);
     display: inline-block;
     font-family: Shift, serif;
     font-size: 1.35rem;
-    font-weight: 800;
-    text-shadow: 1px 1px var(--black);
+    font-weight: 400;
+    /*text-shadow: 1px 1px var(--black);*/
+    float: left;
+    padding: 0;
 }
 
 .vertical-timeline-element-content p {
@@ -252,11 +254,6 @@
     margin: 0
 }
 
-.vertical-timeline-element-content .vertical-timeline-element-date {
-    float: left;
-    padding: .8em 0;
-/*    opacity: .7*/
-}
 
 .vertical-timeline-element-content-arrow {
     content: '';
@@ -274,7 +271,7 @@
 }
 
 @media only screen and (min-width:768px) {
-    .vertical-timeline-element-content h2 {
+/*    .vertical-timeline-element-content h2 {
         font-size: 20px;
         font-size: 1.25rem
     }
@@ -285,7 +282,7 @@
     .vertical-timeline-element-content .vertical-timeline-element-date {
         font-size: 14px;
         font-size: .875rem
-    }
+    }*/
 }
 
 @media only screen and (min-width:650px) {
@@ -293,6 +290,13 @@
         margin-left: 0;
         padding: 0.75em;
         width: 43%
+    }
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+    	color: #FFF;
+    	font-weight: 800;
+    	padding: .8em 0;
+    	text-shadow: 1px 1px var(--black);
+    	
     }
     .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
         top: 24px;
