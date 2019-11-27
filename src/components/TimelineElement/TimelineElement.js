@@ -24,6 +24,9 @@ const TimelineElement = (props) => {
 }
 
 const toggleHidden = (el) => {
+	// do nothing if we click on the text box
+	if (el.target.className !== 'detail-section') { return; }
+	
 	// show/hide text
 	const p = el.target.querySelector('.details');
 	const pClass = p.className;
